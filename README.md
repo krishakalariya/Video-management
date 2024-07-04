@@ -1,8 +1,6 @@
- Setup
+## Setup
 
 ### 1. Create Virtual Environment
-
-First, create and activate a virtual environment:
 
 ```sh
 # Create virtual environment
