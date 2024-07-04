@@ -2,26 +2,28 @@
 
 ### 1. Create Virtual Environment
 
-```sh
-# Create virtual environment
-python3 -m venv venv
+  ```sh
+  # Create virtual environment
+  python3 -m venv venv
 
-# Activate virtual environment
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+  # Activate virtual environment
+  source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+  
 
 ### 2. Install Dependencies
-```sh
-pip install -r requirements.txt
+  ```sh
+  pip install -r requirements.txt
+
 
 ### 3. create database
-```sh
-MONGO_URI=mongodb://localhost:27017/
-DATABASE_NAME=mydatabase
-UPLOAD_FOLDER=./uploads
+  ```sh
+  MONGO_URI=mongodb://localhost:27017/
+  DATABASE_NAME=mydatabase
+  UPLOAD_FOLDER=./uploads
 
 ### 4.Run the Application
-```sh
-uvicorn app.main:app --reload
-
-swagger ui
-http://127.0.0.1:8000/docs
+  ```sh
+  uvicorn app.main:app --reload
+  
+  swagger ui
+  http://127.0.0.1:8000/docs
