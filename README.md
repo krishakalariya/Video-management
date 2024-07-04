@@ -1,6 +1,6 @@
 ## Setup
 
-### 1. Create Virtual Environment
+### 1. create venv
 
   ```sh
   # Create virtual environment
@@ -8,7 +8,6 @@
 
   # Activate virtual environment
   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-  
 
 ### 2. Install Dependencies
   ```sh
